@@ -7,8 +7,8 @@ int main(){
       char a='A';
       for(int k=5-i;k>0;k--)
       cout<<" ";
-    for(int j=1;j<=i;j++){
-      cout<<"k";
+    for(int j=i;j>=1;j--){
+      cout<<j;
      
       }
       
@@ -17,4 +17,3 @@ int main(){
   }
   return 0;
 }
-    
